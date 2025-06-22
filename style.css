@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container {
+    background-color: rgb(109, 167, 230);
+    border-radius: 20px;
+    text-align: center;
+    width: 450px;
+    height: 350px;
+}
+input {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px green solid;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(31, 67, 111);
+}
+#startAgain {
+    display: none;
+    margin-top: 10px;
+    width: 450px;
+    height: 80px;
+    font-size: 30px;
+}
+#grn {
+    color: rgb(64, 4, 84);
+}

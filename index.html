@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="grn">Guess Random Number</h1>
+        <p>შეიყვანე რიცხვი 1-დან 100:</p>
+        <input type="number" min="1" max="100" id="guessInput"> 
+        <button onclick="checkGuess()">Check Number</button>
+        <p id="message"></p>
+        <p>ცდების რაოდენობა <span id="attempts">0</span></p>
+        <button onclick="startGame()" id="startAgain">Start Again</button>
+    </div>
+    
+    <script src="style.js"></script>
+</body>
+</html>
